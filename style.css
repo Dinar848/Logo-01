@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.header {
+    background-image: url(images/bg.png);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 90vh;
+    padding: 23px 0px;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+   max-width: 30%;
+    flex-basis: 30%;
+}
+.logo h1:hover {
+    color: #00a4d4;
+    transition: 0.4s all ease;
+
+}
+.menu {
+    max-width: 70%;
+    flex-basis: 70%;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.menu ul li {
+    list-style-type: none;
+    padding-right: 20px;
+}
+.menu ul li a {
+    color: #515151;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 30px;
+    transition: 0.4s all ease;
+}
+ul li:hover a {
+    background-color: #00a4d4;
+    padding: 10px;
+    color: #fff;
+}
+
+.header-content {
+    width: 357px;
+    text-align: justify;
+    margin-top: 240px;
+    margin-left: 60px;
+}
+
+.header-content h2 {
+    font-size: 36px;
+    margin-bottom: 17px;
+    
+}
+
+.header-content p {
+    font-size: 13px;
+    margin-bottom: 25px;
+    color: #79827f;
+}
+
+.header-content button {
+    padding: 12px 25px;
+    border: 1px;
+    background-color: #00a4d4;
+    color: #fff;
+    border-radius: 25px;
+    font-weight: 800;
+}
+
+.header-content button:hover {
+   background-color: #F9B253; 
+    transition: 0.4s all ease;
+}
+
+
